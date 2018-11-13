@@ -157,6 +157,7 @@ nav a:hover {
     opacity: 0;
     transition: all ease-in-out 10ms;
     visibility: hidden;
+    cursor: pointer;
   }
   nav.open{
     float: none;
@@ -284,6 +285,17 @@ hr {
   animation: final 1s infinite ease-in-out;
   animation-delay: 2.2s
 }
+@media screen and (min-width: 900px) {
+  .spinner{
+    left: 45%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .spinner{
+    left: 43%;
+  }
+}
+
 @media screen and (max-width: 520px) {
   .spinner{
     left: 35%;
