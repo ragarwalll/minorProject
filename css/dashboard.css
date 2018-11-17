@@ -21,6 +21,7 @@
     padding: 30px 20px 50px 20px;
     margin: 25px;
     display: inline-block;
+
     max-width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     transition: all 150ms ease-in-out;
@@ -49,11 +50,11 @@
 }
 
 .beginner{
-    border-top: 7px solid #69639a;
+    border-top: 6px solid #69639a;
 }
 .intermediate{
-    border-top: 7px solid #4c7ef3;  
+    border-top: 6px solid #4c7ef3;  
 }
 .advanced{
-    border-top: 7px solid #6df0c2;
+    border-top: 6px solid #6df0c2;
 }

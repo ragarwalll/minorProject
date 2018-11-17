@@ -332,7 +332,7 @@ hr {
   height: 4px;
   background: #000;
   border-bottom-right-radius: 20px;
-  transform: translate(-78px,9px);
+  transform: translate(-76px,9px);
   animation: revealpen2 1.3s ease-in-out;
 }
 
@@ -354,7 +354,7 @@ hr {
   background: #000;
   border-top-left-radius: 40px;
   border-bottom-left-radius: 20px; 
-  transform: rotate(-120deg) translate(-61px,20px);
+  transform: rotate(-120deg) translate(-59.5px,19px);
   animation: revealpen3 1.6s ease-in-out;
   
 }
@@ -418,7 +418,7 @@ hr {
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
   border-top: 8px solid #000;
-  transform: translate(-38px,55px);
+  transform: translate(-37.5px,55px);
   animation: revealpen4 2.0s ease-in-out;
 }
 
