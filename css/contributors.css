@@ -14,6 +14,7 @@
     background: #f2f2f2;
     padding: 15px 20px;
     margin: 50px auto;
+    transition: all 150ms ease-in-out;
 }
 #name--social{
   margin: 0px;
@@ -43,4 +44,8 @@
 }
 .dp{
     border-radius: 50%;
+}
+.person:hover{
+    transform: scale(1.2);
+    transition: all 150ms ease-in-out;
 }

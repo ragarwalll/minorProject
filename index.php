@@ -49,7 +49,7 @@ $user=Login::isLoggedIn();
                 <nav>
                     <ul>
                     <li><a href="index.php" class="navItem navItem1">HOME</a></li>
-                    <li><a href="contributors.php" class="navItem">Contributors</a></li>
+                    <li><a href="contributors.php" class="navItem">CONTRIBUTORS</a></li>
                     <li><a href="2" class="navItem">CONTACT</a></li>
                     </ul>
                 </nav>
