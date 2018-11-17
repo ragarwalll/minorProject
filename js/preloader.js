@@ -5,7 +5,7 @@ function showPage() {
 }
 
 var myVar2;
-myVar2 = setTimeout(showPage1, 5200);
+myVar2 = setTimeout(showPage1, 5700);
 function showPage1() {
     $(".wrapup").fadeOut();
 }

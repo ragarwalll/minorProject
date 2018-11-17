@@ -564,7 +564,9 @@ hr {
   z-index: 98;
 }
 .conatiner-name{
-  font-size: 40px;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   animation: revealname 1s ease-in-out;
   animation-delay: 4s;
 }

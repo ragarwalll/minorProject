@@ -64,8 +64,8 @@ $user=Login::isLoggedIn();
         <section id="main-content">
             <div id="guts">
                     <div class="paging">
-                        <a href="" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Page</a>
-                        <a href="" class="pageInc pageInc1">Next Page <i class="fas fa-chevron-circle-right ico"></i></a>
+                        <a href="" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
+                        <a href="" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
                     </div>
                 <div class="index">
                         <a href="2.html">1</a><br>
