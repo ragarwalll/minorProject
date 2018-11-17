@@ -77,7 +77,7 @@ $user=Login::isLoggedIn();
                         <a href="">5</a><br>
                 </div>
                 <div class="main-wrapper">
-                    Hello
+                   <p><?php echo "Hello ".$user."!"?> Welcome to Digital Literacy Programme. Here we will help you give a basic idea about how to work on a computer. Starting from turning it on to working with spreadsheets and word and many more.</p>
                 </div>
             </div>
         </section>
