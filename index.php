@@ -18,7 +18,7 @@ $user=Login::isLoggedIn();
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
     <script src='js/dynamicpage.js'></script>
-    <title>Digital Literacy</title>
+    <title>Digital Literacy Programme</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
