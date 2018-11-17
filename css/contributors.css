@@ -15,6 +15,7 @@
     padding: 15px 20px;
     margin: 50px auto;
     transition: all 150ms ease-in-out;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #name--social{
   margin: 0px;
@@ -44,6 +45,7 @@
 }
 .dp{
     border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .person:hover{
     transform: scale(1.2);
