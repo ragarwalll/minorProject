@@ -11,6 +11,7 @@ $user=Login::isLoggedIn();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/contributors.css">
     <script type='text/javascript' src='./js/jquery.min.js'></script>
     <script src="./js/preloader.js"></script>
     <script src='js/jquery.ba-hashchange.min.js'></script>
@@ -48,8 +49,7 @@ $user=Login::isLoggedIn();
                 <nav>
                     <ul>
                     <li><a href="index.php" class="navItem navItem1">HOME</a></li>
-                    <li><a href="about.html" class="navItem">ABOUT</a></li>
-                    <li><a href="pricing.html" class="navItem">PRICING</a></li>
+                    <li><a href="contributors.php" class="navItem">Contributors</a></li>
                     <li><a href="2" class="navItem">CONTACT</a></li>
                     </ul>
                 </nav>
