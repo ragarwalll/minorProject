@@ -129,3 +129,9 @@ body{
 #main{
     margin-top: 0;
 }
+.alert{
+    color: red;
+    position: absolute;
+    transform: translate(185px,-20px);
+    cursor: pointer;
+}

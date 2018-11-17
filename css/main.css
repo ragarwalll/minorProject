@@ -545,3 +545,32 @@ hr {
     opacity: 1;
   }
 }
+
+.center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #55d6aa;
+  z-index: 98;
+}
+.conatiner-name{
+  font-size: 40px;
+  animation: revealname 1s ease-in-out;
+  animation-delay: 4s;
+}
+@keyframes revealname{
+  0%{
+    opacity: 0;
+    transform: scale(0);
+  }
+}

@@ -1,3 +1,9 @@
+<?php include ('./checkcookie.php');
+if(!Login::isLoggedIn()){
+    header('location:initial.php');
+}
+$user=Login::isLoggedIn();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,13 +34,20 @@
             <div class="pencil_h"></div>
         </div>
     </div>
+    <div class="wrapup">
+        <div class="center">
+            <div class="conatiner-name">
+                <?php echo "Hello ".$user;?>
+            </div>
+        </div>
+    </div>
     <div id="container">    
         <header>
             <div class="container" id="nav">
-            <div class="logo"><a href="index.html"> <img src="./img/logo.png" width="30" alt=""></div></a>
+            <div class="logo"><a href="index.php"> <img src="./img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                    <li><a href="index.html" class="navItem navItem1">HOME</a></li>
+                    <li><a href="index.php" class="navItem navItem1">HOME</a></li>
                     <li><a href="about.html" class="navItem">ABOUT</a></li>
                     <li><a href="pricing.html" class="navItem">PRICING</a></li>
                     <li><a href="2" class="navItem">CONTACT</a></li>

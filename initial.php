@@ -1,3 +1,8 @@
+<?php include ('./checkcookie.php');
+if(Login::isLoggedIn()){
+    header('location:index.php');
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,19 +12,43 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="./css/login.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Digital Literacy Programme</title>
 </head>
-
 <body>
-
 <?php
 if(isset($_POST['submit_form'])){
-    echo "Hi";
     $name=$_POST['name'];
     $age=$_POST['age'];
     $occ=$_POST['occupation'];
-    setcookie("NAME", $name, time() + 60 * 60 * 24 * 7,'/', NULL, NULL, TRUE);
-    setcookie("OCC", $occ, time() + 60 * 60 * 24 * 7,'/', NULL, NULL, TRUE);
+
+    if($name){
+        if($age){
+            setcookie("NAME", $name, time() + 60 * 60 * 24 * 7,'/', NULL, NULL, TRUE);
+            setcookie("OCC", $occ, time() + 60 * 60 * 24 * 7,'/', NULL, NULL, TRUE);
+            header("location:index.php");
+        }
+        else{
+            ?>
+            <script>
+                myVar = setTimeout(showPage, 1500);
+                function showPage() {
+                    $('.age-alert').fadeIn();
+                }
+            </script>    
+    <?php
+        }
+    }
+    else{
+    ?>
+    <script>
+        myVar = setTimeout(showPage, 1500);
+        function showPage() {
+            $('.name-alert').fadeIn();
+        }
+    </script>    
+    <?php
+    }   
 }
 ?>
     <div class="center">
@@ -36,10 +65,12 @@ if(isset($_POST['submit_form'])){
             <div class="space" style="padding-top:0px;">
                 <input type="text" name="name" placeholder="Enter your name" class="details name" autocomplete="off">
                 <div class="line lineName"></div>
+                <i class="fa fa-exclamation-circle alert name-alert" aria-hidden="true"></i>
             </div>
             <div class="space">
                 <input type="text" name="age" placeholder="Enter your age" class="details age" autocomplete="off">
                 <div class="line lineAge"></div>
+                <i class="fa fa-exclamation-circle alert age-alert" aria-hidden="true"></i>
             </div>    
             <div style="padding-bottom:30px;"></div>
             <div class="space">
