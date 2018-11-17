@@ -590,3 +590,11 @@ hr {
   }
 }
 
+.main-wrapper p{
+  overflow: hidden;
+  white-space: nowrap;
+  animation: type 4s steps(60, end); 
+}
+@keyframes type{ 
+  from { width: 0; } 
+} 

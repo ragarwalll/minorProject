@@ -77,7 +77,22 @@ $user=Login::isLoggedIn();
                         <a href="">5</a><br>
                 </div>
                 <div class="main-wrapper">
-                   <p><?php echo "Hello ".$user."!"?> Welcome to Digital Literacy Programme. Here we will help you give a basic idea about how to work on a computer. Starting from turning it on to working with spreadsheets and word and many more.</p>
+                   <p id="starting" style="display:none;">Welcome to Digital Literacy Programme. Here we will help you give a basic idea about how to work on a computer. Starting from turning it on to working with spreadsheets and word and many more.</p>
+                   <div id="demo"></div>
+                   <script>
+                        var i = 0;
+                        var txt = document.querySelector("#starting").innerHTML;
+                        var speed = 50;
+                        var myVar2;
+                        myVar2 = setTimeout(showtxt, 5700);
+                        function showtxt() {
+                            if (i < txt.length) {
+                            document.getElementById("demo").innerHTML += txt.charAt(i);
+                            i++;
+                            setTimeout(showtxt, speed);
+                        }
+                        }
+                    </script>
                 </div>
             </div>
         </section>
