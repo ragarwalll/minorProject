@@ -335,6 +335,11 @@ hr {
   transform: translate(-76px,9px);
   animation: revealpen2 1.3s ease-in-out;
 }
+@supports (-moz-appearance:none) {
+  .pencil_h {
+    transform: translate(-79px,9px);
+  } 
+}
 
 .pencil_r{
   display: inline-block;
@@ -420,6 +425,11 @@ hr {
   border-top: 8px solid #000;
   transform: translate(-37.5px,55px);
   animation: revealpen4 2.0s ease-in-out;
+}
+@supports (-moz-appearance:none) {
+  .arrow_up {
+    transform: translate(-38px,55px);
+  } 
 }
 
 @keyframes revealdata1{
