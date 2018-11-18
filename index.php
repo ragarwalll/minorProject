@@ -13,11 +13,11 @@ $user=Login::isLoggedIn();
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/contributors.css">
     <link rel="stylesheet" href="./css/dashboard.css">
-    <script type='text/javascript' src='./js/jquery.min.js'></script>
+    <script type='text/javascript' src='./js-global/jquery.min.js'></script>
     <script src="./js/preloader.js"></script>
     <script src='js/jquery.ba-hashchange.min.js'></script>
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.ico" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/all.css">
     <script src='js/dynamicpage.js'></script>
     <title>Digital Literacy Programme</title>
 </head>
@@ -51,7 +51,7 @@ $user=Login::isLoggedIn();
                     <ul>
                     <li><a href="index.php" class="navItem navItem1">HOME</a></li>
                     <li><a href="dashboard.php" class="navItem">DASHBOARD</a></li>
-                    <li><a href="2" class="navItem">CONTACT</a></li>
+                    <li><a href="contact.php" class="navItem">CONTACT</a></li>
                     <li><a href="contributors.php" class="navItem">CONTRIBUTORS</a></li>
                     </ul>
                 </nav>

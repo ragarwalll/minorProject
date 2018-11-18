@@ -332,7 +332,7 @@ hr {
   height: 4px;
   background: #000;
   border-bottom-right-radius: 20px;
-  transform: translate(-76px,9px);
+  transform: translate(-76px,9px); 
   animation: revealpen2 1.3s ease-in-out;
 }
 @supports (-moz-appearance:none) {

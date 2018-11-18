@@ -58,3 +58,8 @@
 .advanced{
     border-top: 6px solid #6df0c2;
 }
+#level{
+    all: unset;
+    cursor: pointer;
+    color: rgb(85, 26, 139);
+}
