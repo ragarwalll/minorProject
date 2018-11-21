@@ -32,16 +32,15 @@
         </div>
     </div>
 
-    <div id="container">    
+    <div id="container" class="top">    
         <header>
             <div class="container" id="nav">
             <div class="logo"><a href="index.php"> <img src="../img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                    <li><a href="" class="navItem navItem1">HOME</a></li>
-                    <li><a href="" class="navItem">DASHBOARD</a></li>
-                    <li><a href="" class="navItem">CONTACT</a></li>
-                    <li><a href="" class="navItem">CONTRIBUTORS</a></li>
+                    <li><a href="" class="navItem ">Overview</a></li>
+                    <li><a href="" class="navItem navItem1">Tutorial</a></li>
+
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -52,6 +51,9 @@
                 </div>
             </div>
         </header>
+        <div class="top-scroll">
+            <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+        </div>
         <div class="paging">
             <a href="" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
             <a href="" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
@@ -59,16 +61,94 @@
 
         <div class="lef-sided">
             <div class="index">
-                <a href="2.html">1</a><br>
-                <a href="">2</a><br>
-                <a href="">3</a><br>
-                <a href="">4</a><br>
-                <a href="">5</a><br>
+                <ul>
+                    <li><a href="javascript:void(0)" data="1">What is a computer?</a></li>
+                    <li><a href="javascript:void(0)" data="2" >Brief History</a></li>
+                    <li><a href="javascript:void(0)" data="3">Hardware/Software</a></li>
+                    <li><a href="javascript:void(0)" data="4">The Insides</a></li>
+                    <ul>
+                        <li><a href="javascript:void(0)" data="4-1">CPU</a></li>
+                        <li><a href="javascript:void(0)" data="4-2">Memory</a></li>
+                        <li><a href="javascript:void(0)" data="4-3">Hard Drive</a></li>
+                        <li><a href="javascript:void(0)" data="4-4">SSD</a></li>
+                    </ul>
+                    <li><a href="javascript:void(0)" data="5">The Peripherals</a></li>
+                </ul>
                 </div>
         </div>
 
-        <div class="main-wrapper">
-            <p id="starting">Hi</p>
+        <div class="main-wrapper beginner-content">
+            <p id="starting">Before getting started with the actual tutorial, let us first learn what computers are about.</p>
+            
+            <h3 class="1">What is a computer?</h3>
+            <hr>
+            <p>A computer is an electronic device that accepts data as input, processes data into information, stores information for future uses, and outputs the information whenever it is needed.</p>
+
+
+            <h3 class="2">Brief History</h3><hr>
+            <p>Computers, by our above definition, have been around for thousands of years. One of the earliest computers was the abacus, series of beads arranged on metal rods. Beads could be slid back and forth to operate on numbers. This was a very rudimentary device and is not commonly thought of as a computer in modern times. Our idea of computers involves electricity and electronics.</p>
+            <br>
+            <p>Electricity makes computers much more efficient. The first computers used an incredible amount of electricity, which changed voltages in vacuum tubes to operate the computer. These computers were given instructions using punch cards, and were behemoths, taking up entire floors of buildings. Only the more privileged universities and government facilities had access to them.</p>
+            <br>
+            <p>In the 1960s, the vacuum tube was replaced by the integrated circuit and transistor. These greatly reduced the size and power consumption of computers. They were still very large by today's standards, but more institutions had access to computing power than ever before. At the end of the decade, the microchip was invented, which reduced the size of the computer even more.</p>
+            <br>
+            <p>By the end of the 1970s, computers were widespread in businesses. Using a computer involved typing on a terminal (a keyboard and monitor connected to a large central computer). Soon, parts became small enough to allow many users to have a computer at their home. Thus the Personal Computer, or PC, was born.
+
+Since then, personal computers have become tremendously more efficient. They are much smaller, and yet have seen extreme performance gains. In addition to these improvements, computers have become affordable enough for many families worldwide.</p>
+
+            <h3 class="3">Hardware/Software</h3><hr>
+            <p>Hardware is the stuff you can touch, as opposed to software which is abstract and exists only in a virtual world as computer code. Hardware is made of materials found in the universe and are subject to the laws of physics. Contrary to the latter, software is bound only by the creator's imagination and the user's willingness to use the software.</p>
+
+            <h3 class="4">The Insides</h3><hr>
+            <p>Inside the computer case are various components that allow the computer to run.</p>
+
+            <h4 class="4-1">CPU</h4>
+            <p>The Central Processing Unit, or CPU, does nearly all the calculating. It is the main microchip in the computer that distributes tasks to all other parts of the computer. When most people talk about the processor, or chip, it is actually the CPU they are referring to.</p>
+
+            <h4 class="4-2">Memory</h4>
+            <p>RAM (Random Access Memory), commonly called just memory, holds computer code that needs to be operated on quickly. This allows information held in memory to quickly interact with the CPU. The amount of RAM available is limited and therefore needs to be constantly cleared and refilled (don't worry; all computers do this automatically). RAM is just one part of the computer that determines your speed.</p>
+            <br>
+            <p>RAM is referred to as "volatile" memory because the information stored in it disappears when the power is turned off. Hard drives and flash drives, on the other hand, contain non-volatile memory, which is like paper: it can be destroyed or erased, but when properly taken care of, can last forever.</p>
+            <br>
+            <p>RAM is plugged into special slots on the motherboard. There is a large link (known as a bus) from the memory to the CPU. Each motherboard has a fixed number of slots for RAM - often 2 or 4 slots. Only certain types of RAM and sizes of RAM can be used with any motherboard. So before buying, check your motherboard details.</p>
+
+            <h4 class="4-3">Hard Drive</h4>
+            <p>The hard drive is the main storage area in the computer. It is usually where you put your data to be stored permanently (until you choose to erase it). It keeps data after the power is turned off. The official name for a hard disk is Hard Disk Drive (HDD), but is almost always referred to as hard drive.</p>
+            <br>
+            <p>Virtually all of your data is stored on your hard drive. A hard drive is composed of disk(s), where the data is recorded magnetically onto the surface, similar to records, CDs, and DVDs. The size of the hard drive (today's are usually in gigabytes) is determined by how dense (small) the recording is. Many of today's major programs (such as games and media creating and editing programs like Photoshop) and files (such as pictures, music, or video) use a considerable amount of space. Most low-end computers, as of 2011, are shipped with a 160GB (gigabyte) or larger hard drive. Currently, in 2017, it is common to find desktop computers and laptops with 1000GB (1 Terabyte) hard drive or more. As an example, an average .mp3 file takes between 7.5 and 15MB (megabytes) of space. A megabyte is 1/1024th of a gigabyte, thus allowing most new computers to store thousands of such files.</p>
+            <br>
+            <p>Users who wish to store a lot of media on a computer will want a larger hard drive. As will users who want to store numerous large programs, like modern games, or videos, which both require a lot of space. A full size film is over 4 gigabytes. Video games today are commonly downloaded but used to be distributed via DVD discs that store data, called DVD-ROM (read only memory, which can be read off the disk, but not modified). A DVD can be anywhere from 4.7GB for a single layer disk to 8.5GB for a double layered disk... and many large programs are already taking up more than one disk.</p>
+            <br>
+            <p>Another concern for users who want higher performance is hard drive speed, measured in RPM (rotations per minute). Most desktop hard drives today are 7200RPM models. Lower end 4200RPM models are not commonly seen in new systems (other than laptops). Higher end 10,000RPM hard drives are generally seen only in gaming and other extremely high performance computers due to their cost. For example, a 1TB 7200RPM drive costs around $50 (as of January, 2017), while a 1TB 10,000RPM drive costs $120 or more (as of January 2017). A 1TB SSD starts at about $250.</p>
+            <br>
+            <p>Hard drives are constantly increasing in size, both because technology allows, and because of demand for more storage space. For example, an Apple iMac in the late nineties shipped with a 4GB hard drive, and sold for $1,300 US (although it should be noted that the cost alone is not indicative of the hard drive, or vice versa). A modern iMac which sells for $1000 US and carries a 1TB hard drive with a 21in screen and faster processor (January 2017). Compare to the original IBM PC, which carried only a 10MB hard drive, or 10/1024th of a GB. The largest SDD in 2016 was more than 15TB.</p>
+            <br>
+            <p>Many computers already have more than 2 Terabytes, and within decades Petabytes (thousands of Terabytes) and even exobytes (Thousands of Petabytes) will not be unheard of.</p>
+
+            <h4 class="4-4">SSD</h4>
+            <p>The SSD, or otherwise known as a Solid State Drive, is a storage device using RAM modules instead of a spinning disk. It is like a Hard Disk Drive, but these storage devices are much faster than traditional Hard Disk Drives (HDDs) because they don't have to spin up. The SSD can have transfer speeds up to 10x as fast because of this. They are quieter and more expensive than HDDs</p>
+
+            <h3 class="5">The Peripherals</h3><hr>
+            <p>Peripherals are hardware attached to a computer, but external to the main case that houses the CPU, Hard drives, and other such equipment. They are basically devices that allow people to communicate to the computer. It is generally a good idea, although not as important as it used to be, to add and remove hardware from the computer while it is turned off. Things such as USB storage devices and keyboards/mice can generally be inserted and removed at a whim with no consequence, however more advanced things such as printers should be installed according to the manufacturer's instructions, which may include shutting down your computer.</p>
+
+            <h3 class="5-1">Keyboard and Mouse</h3>
+            <p>The keyboard and mouse are basic input devices.</p>
+
+            <h4 class="5-1-1">Keyboard</h4>
+            <p>The keyboard has keys that, when pressed, send information to the computer. The keyboard is the most widely used device for interacting with a desktop computer. However, the touchscreen is the most common input for phones, tablets and some laptops. The most commonly used keyboard, by far, is the QWERTY layout, which almost all keyboards sold use. This is the same layout as most typewriters sold within the last century. The second most common, but a very distant follower, is the Dvorak Simplified Keyboard. While this is technically better, the industry and consumer market as a whole has mostly rejected it.</p>
+            <br>
+            <p>The QWERTY keyboard was designed to prevent typewriters from jamming while keys were being pushed at a fast rate. It did this by keeping keys as far apart as possible. The Dvorak keyboard layout was designed for computers, where this is obviously not a problem, and thus places the most commonly used keys where they are easy to reach, and because of that, quicker. However, because of the popularity QWERTY had, the Dvorak keyboard layout never became popular.</p>
+            <br>
+            <p>It is generally advised that you use a QWERTY keyboard, as even though Dvorak users gain significantly faster typing speeds, the rarity of the layout makes it hard for people who use Dvorak to use most other computers.</p>
+            <br>
+            <p>Keyboards vary in appearance. Those attached to a desktop computer are frequently large with an additional number pad built in on the right side, while laptop keyboards are attached to the computer and are often much smaller. Some keyboards also offer special buttons to play music, open common programs such as the web browser or email program. These multimedia keys tend to be put above the F keys and make the keyboard bigger as a result. Smaller keyboards combine keys or shrink the keys. They are commonly used as an accessory for a laptop - a small size makes them easier to travel with.</p>
+            <br>
+            <p>There are wired and wireless keyboards (and mice). Wired keyboards usually plug into a USB slot. Older style keyboards use the PS2 socket at the back of a desktop. (PS2 to USB adapters are available). Wireless keyboards work by Bluetooth, Infrared (IR) or Radio frequency (RF). Bluetooth is built into most laptops so a Bluetooth keyboard or mouse can connect with no extra equipment. Most desktops do not have bluetooth built in but a USB Bluetooth key can be used to add it. RF keyboards and mice need a receiver plugged into the computer, the transmitter is usually built into the keyboard or mouse.</p>
+            <br> <br>
+            
         </div>
+
+        <script src='../js-global/scroll.js'></script>
+        <script src='../js-global/scroll-top.js'></script>
 </body>
 </html>
