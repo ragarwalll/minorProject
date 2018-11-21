@@ -36,4 +36,9 @@
     opacity: 1;
     transition: all ease-in-out 250ms;
 }
+
+.left-sided a{
+    all: unset;
+    cursor: pointer;
+}
   

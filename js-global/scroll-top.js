@@ -13,6 +13,6 @@ window.addEventListener('scroll', function(e) {
      $(".top-scroll").fadeIn();
  }
  if(height > userScroll){
-    $(".top-scroll").hide();
+    $(".top-scroll").fadeOut();
  }
 });
