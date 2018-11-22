@@ -1,7 +1,12 @@
+@font-face {
+    font-family: linux;
+    src: url(../fonts/linux.ttf);
+}
 .index{
     float: left;
     width: 20vw;
-    padding: 2vw;
+    font-weight: 500;
+    line-height: 22.4px;
 }
 @media screen and (max-width: 674px) {
     .index{
@@ -22,3 +27,14 @@
       opacity: 1;
     }    
   }
+
+.index ol {
+       counter-reset: item;
+       padding-left: 25px;
+    }
+.index li{ display: block }
+.index li:before { 
+      content: counters(item, ".") ". "; 
+      counter-increment: item 
+    }
+    
