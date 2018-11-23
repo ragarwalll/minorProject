@@ -50,6 +50,9 @@
             </div>
         </header>
 
-        <a href="1.About.php">About a Computer.</a>
+        
+        <ul>
+            <li><a href="1.About.php">About a Computer.</a></li>
+        </ul>
 </body>
 </html>

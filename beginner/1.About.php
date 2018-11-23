@@ -38,7 +38,7 @@
             <div class="logo"><a href="index.php"> <img src="../img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                    <li><a href="" class="navItem ">Overview</a></li>
+                    <li><a href="./" class="navItem ">Overview</a></li>
                     <li><a href="" class="navItem navItem1">Tutorial</a></li>
 
                     </ul>
