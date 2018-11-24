@@ -89,7 +89,7 @@ $user=Login::isLoggedIn();
                             if (i < txt.length) {
                             document.getElementById("demo").innerHTML += txt.charAt(i);
                             i++;
-                            setTimeout(showtxt, speed);
+                            setTimeout(showtxt, speed); 
                         }
                         }
                     </script>

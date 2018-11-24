@@ -51,11 +51,13 @@ if(isset($_POST['submit_form'])){
     }   
 }
 ?>
+    <!--
     <div class="center">
         <div class="container">
             <p>Hi</p>
         </div>
     </div>
+    -->
     <div class="space" style="display:block;"></div>
     <div class="main-form">
         <h3 id="main">Welcome</h3>

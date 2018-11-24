@@ -2,7 +2,7 @@ $(function() {
 
     var newHash      = "",
         $mainContent = $("#main-content"),
-        $pageWrap    = $("#container"),
+        $pageWrap    = $("#container"), 
         baseHeight   = 0,
         $el;
         
