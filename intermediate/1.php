@@ -50,8 +50,43 @@
                 </div>
             </div>
         </header>
-        <div class="main-wrapper">
-            <p id="starting">Hi</p>
+
+        <div class="top-scroll">
+            <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
+        
+        <div class="paging">
+            <a href="2.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
+        </div>
+
+        <div class="left-sided">
+            <div class="index">
+                <ol>
+                    <li><a href="javascript:void(0)" data="1">Step 1</a></li>
+                    <li><a href="javascript:void(0)" data="2">Step 2</a></li>
+                    <li><a href="javascript:void(0)" data="3">Step 3</a></li>
+                </ol>
+                
+            </div>
+        </div>
+
+        <div class="main-wrapper">
+            <p id="starting">
+                <h3 class="1">Step 1</h3><hr>
+                <p> Connect your computer to a power source.</p>
+                <br>
+                
+                <h3 class="2">Step 2</h3><hr>
+                <p> Press the Power button on CPU </p>
+                <br>
+                
+                <h3 class="3"> Step 3 (optional)</h3><hr>
+                <p> Enter your password to log into your computer </p>
+            </p> 
+        </div>
+
+        <script src='../js-global/scroll.js'></script>
+        <script src='../js-global/scroll-top.js'></script>
+        <br> <br>
 </body>
 </html>

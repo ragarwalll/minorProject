@@ -38,7 +38,6 @@
             <div class="logo"><a href="index.php"> <img src="../img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                    <li><a href="./" class="navItem ">Overview</a></li>
                     <li><a href="" class="navItem navItem1">Tutorial</a></li>
 
                     </ul>
@@ -54,11 +53,7 @@
         <div class="top-scroll">
             <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
-        <div class="paging">
-            <a href="" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
-            <a href="" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
-        </div>
-
+        
         <div class="left-sided">
             <div class="index">
                 <ol>
@@ -83,7 +78,7 @@
                             </li>
                             <li><a href="javascript:void(0)" data="5-2">Media Devices (Floppy, CD-ROM, DVD, USB)</a></li>
                             <li><a href="javascript:void(0)" data="5-3">Monitor</a></li>
-                            <li><a href="javascript:void(0)" data="5-4">Printer</a></li>
+                            <li><a href="javascript:void(0)" data="5-4">Printer</a></li> 
                         </ol>
                     </li>
                 </ol>

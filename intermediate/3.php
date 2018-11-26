@@ -50,8 +50,57 @@
                 </div>
             </div>
         </header>
-        <div class="main-wrapper">
-            <p id="starting">Hi</p>
+        <div class="paging">
+            <a href="2.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
+            <a href="4.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
+
+        <div class="top-scroll">
+            <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+        </div>
+        
+        
+        <div class="left-sided">
+            <div class="index">
+                <ol>
+                    <li><a href="javascript:void(0)" data="1">Step 1</a></li>
+                    <li><a href="javascript:void(0)" data="2">Step 2</a></li>
+                    <li><a href="javascript:void(0)" data="3">Step 3</a></li>
+                </ol>
+                
+            </div>
+        </div>
+
+        <div class="main-wrapper">
+            <p id="starting">
+                <h2 class="heading">Working in MS WORD</h2>
+                <h3 class="1">Step 1 </h3><hr>
+                <p> Press 'Windows+R' to start Run Dialog Bog.</p>
+                <br>
+                <div class="center">
+                    <img src="./img/2.1.jpg" alt="">
+                </div>
+                <br>
+                
+                <h3 class="2">Step 2</h3><hr>
+                <p> Type "WinWord.exe" without quotes </p>
+                <br>
+                <div class="center">
+                    <img src="./img/2.2.jpg" alt="">
+                </div>
+                <br>
+                
+                <h3 class="3"> Step 3</h3><hr>
+                <p> Press Enter to Open MS Word </p>
+                <br>
+                <div class="center">
+                    <img src="./img/2.3.jpg" height="200" alt="">
+                </div>
+                </p>
+        </div>
+
+        <script src='../js-global/scroll.js'></script>
+        <script src='../js-global/scroll-top.js'></script>
+        <br> <br> <br>
 </body>
 </html>
