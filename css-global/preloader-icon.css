@@ -6,6 +6,7 @@
     bottom: 0;
     background-color: #55d6aa;
     z-index: 99;
+    font-weight: 800;
   }
   
   .spinner {
@@ -17,7 +18,8 @@
     text-align: center;
     opacity: 0.7;
     animation: final 1s infinite ease-in-out;
-    animation-delay: 2.2s
+    animation-delay: 2.2s;
+    font-weight: 800;
   }
   @media screen and (min-width: 900px) {
     .spinner{
