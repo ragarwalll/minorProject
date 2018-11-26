@@ -38,10 +38,8 @@
             <div class="logo"><a href="index.php"> <img src="../img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                    <li><a href="" class="navItem navItem1">HOME</a></li>
-                    <li><a href="" class="navItem">DASHBOARD</a></li>
-                    <li><a href="" class="navItem">CONTACT</a></li>
-                    <li><a href="" class="navItem">CONTRIBUTORS</a></li>
+                    
+                    <li><a href="" class="navItem navItem1">OVERVIEW</a></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -53,22 +51,56 @@
             </div>
         </header>
         <div class="paging">
-            <a href="" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
-            <a href="" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
+            <a href="1.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
+            <a href="3.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
-        <div class="lef-sided">
+        <div class="top-scroll">
+            <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
+        </div>
+        
+        
+        <div class="left-sided">
             <div class="index">
-                <a href="2.html">1</a><br>
-                <a href="">2</a><br>
-                <a href="">3</a><br>
-                <a href="">4</a><br>
-                <a href="">5</a><br>
-                </div>
+                <ol>
+                    <li><a href="javascript:void(0)" data="1">Step 1</a></li>
+                    <li><a href="javascript:void(0)" data="2">Step 2</a></li>
+                    <li><a href="javascript:void(0)" data="3">Step 3</a></li>
+                </ol>
+                
+            </div>
         </div>
 
         <div class="main-wrapper">
-            <p id="starting">Hi</p>
+            <p id="starting">
+                <h2 class="heading">Google Chrome</h2>
+                <h3 class="1">Step 1 </h3><hr>
+                <p> Press 'Windows+R' to start Run Dialog Bog.</p>
+                <br>
+                <div class="center">
+                    <img src="./img/1.1.jpg" alt="">
+                </div>
+                <br>
+                
+                <h3 class="2">Step 2</h3><hr>
+                <p> Type "chrome" without quotes </p>
+                <br>
+                <div class="center">
+                    <img src="./img/1.2.jpg" alt="">
+                </div>
+                <br>
+                
+                <h3 class="3"> Step 3</h3><hr>
+                <p> Press Enter to Open Google Chrome </p>
+                <br>
+                <div class="center">
+                    <img src="./img/1.3.jpg" height="400" alt="">
+                </div>
+                </p>
         </div>
+
+        <script src='../js-global/scroll.js'></script>
+        <script src='../js-global/scroll-top.js'></script>
+        <br> <br> <br>
 </body>
 </html>
