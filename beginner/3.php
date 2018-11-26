@@ -95,13 +95,7 @@
             <br>
             <div class="card answer">
                 <div class="center">
-                    <p> RAM (Random Access Memory), commonly called just memory, holds computer code that needs to be operated on quickly. This allows information held in memory to quickly interact with the CPU. The amount of RAM available is limited and therefore needs to be constantly cleared and refilled (don't worry; all computers do this automatically). RAM is just one part of the computer that determines your speed.
-
-
-RAM is referred to as "volatile" memory because the information stored in it disappears when the power is turned off. Hard drives and flash drives, on the other hand, contain non-volatile memory, which is like paper: it can be destroyed or erased, but when properly taken care of, can last forever.
-
-
-RAM is plugged into special slots on the motherboard. There is a large link (known as a bus) from the memory to the CPU. Each motherboard has a fixed number of slots for RAM - often 2 or 4 slots. Only certain types of RAM and sizes of RAM can be used with any motherboard. So before buying, check your motherboard details.</p>
+                    <p> RAM (Random Access Memory), commonly called just memory, holds computer code that needs to be operated on quickly. This allows information held in memory to quickly interact with the CPU.</p>
                 </div>
             </div>
             <br><br>
@@ -114,7 +108,7 @@ RAM is plugged into special slots on the motherboard. There is a large link (kno
             <br>
             <div class="card answer">
                 <div class="center">
-                    <p> Software is bound only by the creator's imagination and the user's willingness to use the software.</p>
+                    <p> The hard drive is the main storage area in the computer. It is usually where you put your data to be stored permanently (until you choose to erase it)</p>
                 </div>
             </div>
             <br><br>
@@ -126,7 +120,7 @@ RAM is plugged into special slots on the motherboard. There is a large link (kno
             <br>
             <div class="card answer">
                 <div class="center">
-                    <p> Software is bound only by the creator's imagination and the user's willingness to use the software.</p>
+                    <p> The SSD, or otherwise known as a Solid State Drive, is a storage device using RAM modules instead of a spinning disk. It is like a Hard Disk Drive, but these storage devices are much faster than traditional Hard Disk Drives (HDDs) because they don't have to spin up.</p>
                 </div>
             </div>
             <br><br>
