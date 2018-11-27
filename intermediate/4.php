@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Intermediate | Digital Literacy Programme</title>
+    <title>Intermediate | Course 4</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -39,7 +39,7 @@
                 <nav>
                     <ul>
                     
-                    <li><a href="" class="navItem navItem1">OVERVIEW</a></li>
+                    <li><a href="" class="navItem navItem1">TUTORIAL</a></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -73,7 +73,7 @@
 
         <div class="main-wrapper">
             <p id="starting">
-                <h2 class="heading">Entering Texts in MS WORD</h2>
+                <h2 class="heading">Inserting Texts in MS WORD</h2>
 
                 <div class="center"><img src="./img/4.1.jpg" alt=""></div>
 

@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Intermediate | Digital Literacy Programme</title>
+    <title>Intermediate | Course 2</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -39,7 +39,7 @@
                 <nav>
                     <ul>
                     
-                    <li><a href="" class="navItem navItem1">OVERVIEW</a></li>
+                    <li><a href="" class="navItem navItem1">TUTORIAL</a></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -83,7 +83,7 @@
                 <br>
                 
                 <h3 class="2">Step 2</h3><hr>
-                <p> Type "WinWord.exe" without quotes </p>
+                <p> Type "WinWord.exe" without quotes. </p>
                 <br>
                 <div class="center">
                     <img src="./img/2.2.jpg" alt="">
@@ -91,7 +91,7 @@
                 <br>
                 
                 <h3 class="3"> Step 3</h3><hr>
-                <p> Press Enter to Open MS Word </p>
+                <p> Press Enter to Open MS Word. </p>
                 <br>
                 <div class="center">
                     <img src="./img/2.3.jpg" height="200" alt="">

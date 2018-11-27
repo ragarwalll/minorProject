@@ -2,7 +2,7 @@ $(".top-scroll").hide();
 $(document).ready(function() {
     $(".top-scroll").click(function() {
         $('html,body').animate({
-            scrollTop: $(".top").offset().top},
+            scrollTop: $(".container").offset().top},
         'slow');
     });
 });

@@ -7,10 +7,4 @@ $(document).ready(function() {
             scrollTop: $("."+data).offset().top},
             'slow');
     }); 
-
-    $(".top-scroll").click(function() {
-        $('html,body').animate({
-            scrollTop: $(".top").offset().top},
-        'slow');
-    });
 });

@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
+    <link rel="stylesheet" href="../css-global/index.css">
     <title>Beginner | Digital Literacy Programme</title>
 </head>
 <body>
@@ -32,13 +33,13 @@
         </div>
     </div>
 
-    <div id="container" class="top">    
+    <div id="container">    
         <header>
             <div class="container" id="nav">
             <div class="logo"><a href="index.php"> <img src="../img/logo.png" width="30" alt=""></div></a>
                 <nav>
                     <ul>
-                        <li><a href="" class="navItem navItem1">Overview</a></li>
+                        <li><a href="" class="navItem navItem1">OVERVIEW</a></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -49,10 +50,14 @@
                 </div>
             </div>
         </header>
+        <div class="main-wrapper">
+            <p id="starting--header">In this level, we wil help you give a basic idea about a Computer.</p>
 
-        
-        <ul>
-            <li><a href="1.About.php">About a Computer.</a></li>
-        </ul>
+            <div class="contents">
+                <ul>
+                    <li><a href="./1.php">Basics of a Computer.</a></li>
+                </ul>
+            </div>
+        </div>
 </body>
 </html>

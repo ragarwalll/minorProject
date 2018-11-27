@@ -6,6 +6,7 @@
 
 header {
   background: #55d6aa;
+  font-weight: 800;
 }
 
 header::after {

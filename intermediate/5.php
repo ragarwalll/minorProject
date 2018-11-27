@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Intermediate | Digital Literacy Programme</title>
+    <title>Intermediate | Course 5</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -39,7 +39,7 @@
                 <nav>
                     <ul>
                     
-                    <li><a href="" class="navItem navItem1">OVERVIEW</a></li>
+                    <li><a href="" class="navItem navItem1">TUTORIAL</a></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">
@@ -52,7 +52,6 @@
         </header>
         <div class="paging">
             <a href="4.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
-            <a href="6.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
         <div class="top-scroll">

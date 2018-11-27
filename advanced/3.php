@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Intermediate | Digital Literacy Programme</title>
+    <title>Advanced | Course 3</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -51,8 +51,8 @@
             </div>
         </header>
         <div class="paging">
-            <a href="1.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
-            <a href="3.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
+            <a href="2.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
+            <a href="4.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
         <div class="top-scroll">
@@ -73,30 +73,25 @@
 
         <div class="main-wrapper">
             <p id="starting">
-                <h2 class="heading">MS Excel</h2>
+                <h2 class="heading">Visiting sites in Google Chrome</h2>
                 <h3 class="1">Step 1 </h3><hr>
-                <p> Press 'Windows+R' to start Run Dialog Bog.</p>
-                <br>
+                <p>Head to the URL block as shown in the follwing image.</p>
                 <div class="center">
-                    <img src="./img/2.1.jpg" alt="">
+                    <img src="./img/3.1.jpg" height="300" alt="">
                 </div>
+                <p>This is the block where we will type a url or we will search anything.</p>
+                <br>
+                                
+                <h3 class="2">Step 2</h3><hr>
+                <p>Just type "https://www.google.com/"(without the quotes) to visit Google's official page.</p>
                 <br>
                 
-                <h3 class="2">Step 2</h3><hr>
-                <p> Type "excel" without quotes </p>
-                <br>
-                <div class="center">
-                    <img src="./img/6.1.jpg" alt="">
-                </div>
+                <p>Press Enter after typing the URL.</p>
                 <br>
                 
                 <h3 class="3"> Step 3</h3><hr>
-                <p> Press Enter to Open MS Excel </p>
+                <p>If you see Google's official page, you have successfully opened a URL.</p>
                 <br>
-                <div class="center">
-                    <img src="" height="200" alt="">
-                </div>
-                </p>
         </div>
 
         <script src='../js-global/scroll.js'></script>

@@ -3,7 +3,7 @@
     <div id="guts">
         <div class="main-wrapper2">
             <div class="levels">
-                <a href="./beginner/1.About.php" target="_blank" id="level">
+                <a href="./beginner/" target="_blank" id="level">
                     <div class="level beginner">
                         <h3>Beginner</h3> 
                         <div class="begin--svg" style="background-color:#69639a"><svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title" version="1.1" class="icon--svg" height="24" width="24"><title>Learn Icon</title><path d="M15 16.6l4.351-4.6L15 7.4 16.324 6 22 12l-5.676 6L15 16.6zm-6 0L4.649 12 9 7.4 7.676 6 2 12l5.676 6L9 16.6z"></path></svg></div>

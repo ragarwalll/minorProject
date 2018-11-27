@@ -8,7 +8,8 @@
     font-weight: 500;
     line-height: 22.4px;
     position: fixed;
-    padding: 70px 0;
+    height: 100vh;
+    z-index: -1;
 }
 @media screen and (max-width: 674px) {
     .index{

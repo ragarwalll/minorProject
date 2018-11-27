@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Advanced | Digital Literacy Programme</title>
+    <title>Advanced | Course 2</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -73,30 +73,23 @@
 
         <div class="main-wrapper">
             <p id="starting">
-                <h2 class="heading">Google Chrome</h2>
+                <h2 class="heading">Setting up Google Chrome</h2>
                 <h3 class="1">Step 1 </h3><hr>
-                <p> Press 'Windows+R' to start Run Dialog Bog.</p>
+                <p>You need to Sign in Chrome with your Gmail credentials to import/export your history and bookmarks.</p>
                 <br>
-                <div class="center">
-                    <img src="./img/1.1.jpg" alt="">
-                </div>
-                <br>
-                
+                                
                 <h3 class="2">Step 2</h3><hr>
-                <p> Type "chrome" without quotes </p>
+                <p> To do that, just click on the highlighted part to sign in.</p>
                 <br>
                 <div class="center">
-                    <img src="./img/1.2.jpg" alt="">
+                    <img src="./img/2.1.jpg" height="300" alt="">
                 </div>
+                <p>Now Enter your credentials there.</p>
                 <br>
                 
                 <h3 class="3"> Step 3</h3><hr>
-                <p> Press Enter to Open Google Chrome </p>
+                <p>Now, after successfull Sign In, you will be able to import/export your history, bookmarks, etc. </p>
                 <br>
-                <div class="center">
-                    <img src="./img/1.3.jpg" height="400" alt="">
-                </div>
-                </p>
         </div>
 
         <script src='../js-global/scroll.js'></script>

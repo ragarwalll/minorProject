@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
     <link rel="stylesheet" href="../css-global/index.css">
-    <title>Intermediate | Digital Literacy Programme</title>
+    <title>Advanced | Digital Literacy Programme</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -51,15 +51,13 @@
             </div>
         </header>
         <div class="main-wrapper">
-            <p id="starting--header">In this level, we wil help you give a basic idea about how to work with word.</p>
+            <p id="starting--header">In this level, we wil help you give an idea about how to browse the internet.</p>
 
             <div class="contents">
                 <ul>
-                    <li><a href="./1.php">Switching on your computer/laptop.</a></li>
-                    <li><a href="./2.php">Opening Microsoft Word</a></li>
-                    <li><a href="./3.php">Understanding the toolbars in Microsoft Word</a></li>
-                    <li><a href="./4.php">Inserting Texts in MS WORD</a></li>
-                    <li><a href="./5.php">Saving Documents in MS WORD</a></li>
+                    <li><a href="./1.php">Starting Google Chrome.</a></li>
+                    <li><a href="./2.php">Setting up Google Chrome.</a></li>
+                    <li><a href="./3.php">Searching sites in Google Chrome.</a></li>
                 </ul>
             </div>
         </div>

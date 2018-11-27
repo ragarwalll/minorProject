@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="../css-global/left-sided.css">
     <link rel="stylesheet" href="../css-global/main-wrapper.css">
     <link rel="stylesheet" href="../css-global/footer-fixed.css">
-    <title>Advanced | Digital Literacy Programme</title>
+    <title>Advanced | Course 1</title>
 </head>
 <body>
     <div class="spinner-wrapper" id="loader">
@@ -96,6 +96,14 @@
                     <img src="./img/1.3.jpg" height="400" alt="">
                 </div>
                 </p>
+                <br>
+
+                <h3 class="4">Step 4(Optional)</h3><hr>
+                <p>If you don't have Google Chrome, download it from this link using Microsoft Edge or Internet Explorer.
+                </p>
+                <code><a href="https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7B4E0E3CA2-6139-563F-13E4-6D094652724B%7D%26lang%3Den%26browser%3D4%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe" target="_blank">Download Google Chrome</a></code>
+                <p>Now Repeat from Step 1.</p>
+                <br>
         </div>
 
         <script src='../js-global/scroll.js'></script>
