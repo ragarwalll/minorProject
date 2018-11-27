@@ -9,7 +9,6 @@
     line-height: 22.4px;
     position: fixed;
     height: 100vh;
-    z-index: -1;
 }
 @media screen and (max-width: 674px) {
     .index{

@@ -74,22 +74,22 @@
             <p id="starting">
                 <h2 class="heading">Saving Document in MS WORD</h2>
 
-                <h3 class="1">Saving New Document</h3>
+                <h3 class="0">Saving New Document</h3>
                 <hr>
                 <p>Once you are done with typing in your new Word document, it is time to save your document to avoid losing work you have done on a Word document. Following are the steps to save an edited Word document −</p>
                 <br>
 
-                <div class="2">
+                <div class="1">
                     <p><b>Step 1</b> − Click the File tab and select the Save As option.</p>
                     <div class="center"><img src="./img/4.3.jpg" alt=""></div>
                 </div>
 
-                <div class="3">
+                <div class="2">
                     <p><b>Step 2</b> − Select a folder where you will like to save the document, Enter the file name which you want to give to your document and Select the Save As option, by default it is the .docx format.</p>
                     <div class="center"><img src="./img/4.4.jpg" alt=""></div>
                 </div>
 
-                <div class="4">
+                <div class="3">
                     <p><b>Step 3</b> − Finally, click on the Save button and your document will be saved with the entered name in the selected folder.</p>
                 </div>
         </div>

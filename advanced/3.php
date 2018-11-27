@@ -52,7 +52,6 @@
         </header>
         <div class="paging">
             <a href="2.php" class="pageInc"><i class="fas fa-chevron-circle-left ico"></i> Previous Course</a>
-            <a href="4.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
         <div class="top-scroll">

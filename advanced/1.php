@@ -65,6 +65,7 @@
                     <li><a href="javascript:void(0)" data="1">Step 1</a></li>
                     <li><a href="javascript:void(0)" data="2">Step 2</a></li>
                     <li><a href="javascript:void(0)" data="3">Step 3</a></li>
+                    <li><a href="javascript:void(0)" data="4">Step 4</a></li>
                 </ol>
                 
             </div>

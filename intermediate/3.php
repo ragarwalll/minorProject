@@ -63,9 +63,17 @@
         <div class="left-sided">
             <div class="index">
                 <ol>
-                    <li><a href="javascript:void(0)" data="1">Step 1</a></li>
-                    <li><a href="javascript:void(0)" data="2">Step 2</a></li>
-                    <li><a href="javascript:void(0)" data="3">Step 3</a></li>
+                    <li><a href="javascript:void(0)" data="1">File Tab</a></li>
+                    <li><a href="javascript:void(0)" data="2">Quick Access Toolbar</a></li>
+                    <li><a href="javascript:void(0)" data="3">Ribbon</a></li>
+                    <li><a href="javascript:void(0)" data="4">Title bar</a></li>
+                    <li><a href="javascript:void(0)" data="5">Rulers</a></li>
+                    <li><a href="javascript:void(0)" data="6">Help</a></li>
+                    <li><a href="javascript:void(0)" data="7">Zoom Control</a></li>
+                    <li><a href="javascript:void(0)" data="8">View Buttons</a></li>
+                    <li><a href="javascript:void(0)" data="9">Document Area</a></li>
+                    <li><a href="javascript:void(0)" data="10">Status Bar</a></li>
+                    <li><a href="javascript:void(0)" data="11">Dialog Box Launcher</a></li>
                 </ol>
                 
             </div>
