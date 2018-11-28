@@ -53,6 +53,9 @@
         <div class="top-scroll">
             <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
+        <div class="back">
+            <a href="../"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
+        </div>
         
         <div class="left-sided">
             <div class="index">

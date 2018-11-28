@@ -54,18 +54,20 @@
         <div class="top-scroll">
             <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
-        
+        <div class="back">
+            <a href="./"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
+        </div>
         <div class="paging">
             <a href="2.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
         <div class="left-sided">
             <div class="index">
-                <ol>
+                <ul>
                     <li><a href="javascript:void(0)" data="1">Step 1</a></li>
                     <li><a href="javascript:void(0)" data="2">Step 2</a></li>
                     <li><a href="javascript:void(0)" data="3">Step 3</a></li>
-                </ol>
+                </ul>
                 
             </div>
         </div>

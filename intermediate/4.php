@@ -59,13 +59,15 @@
             <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
         
-        
+        <div class="back">
+            <a href="./"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
+        </div>
         <div class="left-sided">
             <div class="index">
-                <ol>
+                <ul>
                     <li><a href="javascript:void(0)" data="1">Inserting Texts</a></li>
         
-                </ol>
+                </ul>
                 
             </div>
         </div>

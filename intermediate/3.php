@@ -58,11 +58,13 @@
         <div class="top-scroll">
             <a href="javascript:void(0)"><i class="fas fa-chevron-circle-up fa-2x"></i></a>
         </div>
-        
+        <div class="back">
+            <a href="./"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
+        </div>
         
         <div class="left-sided">
             <div class="index">
-                <ol>
+                <ul>
                     <li><a href="javascript:void(0)" data="1">File Tab</a></li>
                     <li><a href="javascript:void(0)" data="2">Quick Access Toolbar</a></li>
                     <li><a href="javascript:void(0)" data="3">Ribbon</a></li>
@@ -74,7 +76,7 @@
                     <li><a href="javascript:void(0)" data="9">Document Area</a></li>
                     <li><a href="javascript:void(0)" data="10">Status Bar</a></li>
                     <li><a href="javascript:void(0)" data="11">Dialog Box Launcher</a></li>
-                </ol>
+                </ul>
                 
             </div>
         </div>
