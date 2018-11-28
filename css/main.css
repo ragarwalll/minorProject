@@ -2,17 +2,16 @@
 body {
 	margin: 0;
 	font-family: 'Work Sans', sans-serif;
-  font-weight: 800;
   background: #f7f7f7;
 }
-
-.container {
-	width: 95%;
-	margin: 0 auto;
+.container{
+  width: 95% ;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-
 header {
   background: #55d6aa;
+  font-weight: 800;
 }
 
 header::after {
@@ -20,7 +19,10 @@ header::after {
   display: table;
   clear: both;
 }
-
+.divnew{
+  color: #444;
+  cursor: pointer;
+}
 .logo {
   float: left;
   padding: 2px 0;
@@ -273,6 +275,7 @@ hr {
   bottom: 0;
   background-color: #55d6aa;
   z-index: 99;
+  font-weight: 800;
 }
 
 .spinner {
