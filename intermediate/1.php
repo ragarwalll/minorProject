@@ -61,7 +61,7 @@
             <a href="2.php" class="pageInc pageInc1">Next Course <i class="fas fa-chevron-circle-right ico"></i></a>
         </div>
 
-        <div class="left-sided">
+        <!--<div class="left-sided">
             <div class="index">
                 <ul>
                     <li><a href="javascript:void(0)" data="1">Step 1</a></li>
@@ -70,7 +70,7 @@
                 </ul>
                 
             </div>
-        </div>
+        </div>-->
 
         <div class="main-wrapper">
             <p id="starting">

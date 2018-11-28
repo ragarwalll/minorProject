@@ -60,9 +60,9 @@
         <div class="left-sided">
             <div class="index">
                 <ul>
-                    <li><a href="javascript:void(0)" data="1">What is a computer?</a></li>
-                    <li><a href="javascript:void(0)" data="2" >Brief History</a></li>
-                    <li><a href="javascript:void(0)" data="3">Hardware/Software</a></li>
+                    <li><a href="javascript:void(0)" data="1">What is a computer?</a></li><br>
+                    <li><a href="javascript:void(0)" data="2" >Brief History</a></li><br>
+                    <li><a href="javascript:void(0)" data="3">Hardware/Software</a></li><br>
                     <li><a href="javascript:void(0)" data="4">The Insides</a>
                         <ul>
                             <li><a href="javascript:void(0)" data="4-1">CPU</a></li>
@@ -70,7 +70,7 @@
                             <li><a href="javascript:void(0)" data="4-3">Hard Drive</a></li>
                             <li><a href="javascript:void(0)" data="4-4">SSD</a></li>
                         </ul>
-                    </li>
+                    </li><br>
                     <li><a href="javascript:void(0)" data="5">The Peripherals</a>
                         <ul>
                             <li><a href="javascript:void(0)" data="5-1">Keyboard and Mouse</a>
@@ -81,9 +81,9 @@
                             </li>
                             <li><a href="javascript:void(0)" data="5-2">Media Devices (Floppy, CD-ROM, DVD, USB)</a></li>
                             <li><a href="javascript:void(0)" data="5-3">Monitor</a></li>
-                            <li><a href="javascript:void(0)" data="5-4">Printer</a></li> 
+                            <li><a href="javascript:void(0)" data="5-4">Printer</a></li>
                         </ul>
-                    </li>
+                    </li><br>
                 </ul>
             </div>
         </div>

@@ -62,7 +62,7 @@
         <div class="back">
             <a href="./"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
         </div>
-        <div class="left-sided">
+        <!--<div class="left-sided">
             <div class="index">
                 <ul>
                     <li><a href="javascript:void(0)" data="1">Inserting Texts</a></li>
@@ -70,7 +70,7 @@
                 </ul>
                 
             </div>
-        </div>
+        </div>-->
 
         <div class="main-wrapper">
             <p id="starting">
