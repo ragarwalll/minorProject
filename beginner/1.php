@@ -56,37 +56,37 @@
         
         <div class="left-sided">
             <div class="index">
-                <ol>
+                <ul>
                     <li><a href="javascript:void(0)" data="1">What is a computer?</a></li>
                     <li><a href="javascript:void(0)" data="2" >Brief History</a></li>
                     <li><a href="javascript:void(0)" data="3">Hardware/Software</a></li>
                     <li><a href="javascript:void(0)" data="4">The Insides</a>
-                        <ol>
+                        <ul>
                             <li><a href="javascript:void(0)" data="4-1">CPU</a></li>
                             <li><a href="javascript:void(0)" data="4-2">Memory</a></li>
                             <li><a href="javascript:void(0)" data="4-3">Hard Drive</a></li>
                             <li><a href="javascript:void(0)" data="4-4">SSD</a></li>
-                        </ol>
+                        </ul>
                     </li>
                     <li><a href="javascript:void(0)" data="5">The Peripherals</a>
-                        <ol>
+                        <ul>
                             <li><a href="javascript:void(0)" data="5-1">Keyboard and Mouse</a>
-                                <ol>
+                                <ul>
                                     <li><a href="javascript:void(0)" data="5-1-1">Keyboard</a></li>
                                     <li><a href="javascript:void(0)" data="5-1-2">Mouse</a></li>
-                                </ol>
+                                </ul>
                             </li>
                             <li><a href="javascript:void(0)" data="5-2">Media Devices (Floppy, CD-ROM, DVD, USB)</a></li>
                             <li><a href="javascript:void(0)" data="5-3">Monitor</a></li>
                             <li><a href="javascript:void(0)" data="5-4">Printer</a></li> 
-                        </ol>
+                        </ul>
                     </li>
-                </ol>
+                </ul>
             </div>
         </div>
 
         <div class="main-wrapper beginner-content">
-            <p id="starting">Before getting started with the actual tutorial, let us first learn what computers are about.</p>
+            <h3 id="starting">Before getting started with the actual tutorial, let us first learn what computers are about.</h3>
             
             <h3 class="1">What is a computer?</h3>
             <hr>

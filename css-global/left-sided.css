@@ -29,14 +29,3 @@
       opacity: 1;
     }    
   }
-
-.index ol {
-       counter-reset: item;
-       padding-left: 25px;
-    }
-.index li{ display: block }
-.index li:before { 
-      content: counters(item, ".") ". "; 
-      counter-increment: item 
-    }
-    
