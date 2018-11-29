@@ -47,7 +47,7 @@ foreach($getposts as $row){
         <div class="post-image">
             <img src="<?php print $_SERVER['MYVAR'];?><?php echo $post_image;?>" alt="" class="post-image-content">
         </div>
-        <?php }?>
+        <?php }?> 
         <div class="post--likes" style="display:inline; padding-right:0px;  ">
             <?php
             $likesall=DB::query('SELECT total_likes FROM total_likes WHERE post_id=:postid', array(':postid'=>$id))[0]['total_likes'];

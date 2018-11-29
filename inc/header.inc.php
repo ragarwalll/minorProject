@@ -41,6 +41,7 @@ else {
                     <li><a href="home.php" class="navItem">HOME</a></li>
                     <li><a href="profile.php?user=<?php echo $username;?>" class="navItem">PROFILE</a></li>
                     <li><a href="messages.php" class="navItem">MESSAGES</a></li>
+                    <li><a href="friends.php" class="navItem">FIND PEOPLE</a></li>
                     <li><a href="settings.php" class="navItem">ACCOUNT SETTINGS</a></li>
                     <li><a href="logout.php" class="navItem">LOGOUT</a></li>
                     <?php }?>
