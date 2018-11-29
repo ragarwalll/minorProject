@@ -1,30 +1,30 @@
-function checkit(){
+function checkitemail(){
     var usernameResponse;
-    var usernameCheck = document.querySelector(".user").value;
-    if(usernameCheck)
+    var emailCheck = document.querySelector(".usercheckemail").value;
+    
+    if(emailCheck)
     {
       $.ajax({
         type: 'POST',
-        url: 'checkusername.php',
+        url: 'checkemail_new.php',
         data: {
-          usernameTrue: usernameCheck,
+          emailTrue: emailCheck,
         },
           success: function (data) {
-            $( '#email_status' ).html(data);  
+            $( '#email_check' ).html(data);  
             if(data == "OK")
             {
-              alert("Hi");
+              
             }
             else
             {
               return false;
             }
-  
           }
       });
     }
     else{
-      $( '#email_status' ).html("");
+      $( '#email_check' ).html("");
       return false;
     }
   }

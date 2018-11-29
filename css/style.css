@@ -339,6 +339,20 @@ h2 {
   -webkit-text-fill-color: transparent;
 }
 
+.new-acc {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  transform: translateX(-40px);
+  color: black;
+}
+
+.new-acc:hover {
+  color: #7086ff !important;
+}
+
 .load-bar {
   position: fixed;
   bottom: 0;
@@ -940,4 +954,14 @@ hrr {
 
 .user-dp {
   text-align: center;
+}
+
+.new-form {
+  padding: 05px 40px 36px;
+}
+
+#user_check, #email_check {
+  position: absolute;
+  right: 0;
+  transform: translate(-40px, 0px);
 }

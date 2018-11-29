@@ -1,16 +1,17 @@
 function checkit(){
     var usernameResponse;
-    var usernameCheck = document.querySelector(".user").value;
+    var usernameCheck = document.querySelector(".usercheck").value;
+    
     if(usernameCheck)
     {
       $.ajax({
         type: 'POST',
-        url: 'checkusername.php',
+        url: 'checkusername_new.php',
         data: {
           usernameTrue: usernameCheck,
         },
           success: function (data) {
-            $( '#email_status' ).html(data);  
+            $( '#user_check' ).html(data);  
             if(data == "OK")
             {
               alert("Hi");
@@ -24,7 +25,7 @@ function checkit(){
       });
     }
     else{
-      $( '#email_status' ).html("");
+      $( '#user_check' ).html("");
       return false;
     }
   }

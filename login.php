@@ -39,7 +39,10 @@ include ( "./inc/login.inc.php");?>
                   <a class="newpass" href="" >forgot password?</a></div>
               </div><!--lining-->
               <input type="submit" name="login" class="final hide" style="float: right" value="Login">   
-            </form>
+              <div class="new-acc">
+                <a class="newpass" href="./sign.php">Don't have a account? Sign Up</a>
+              </div>
+            </form> 
           </div><!--Email-->
         </div><!--Input-->
     </div><!--Form-->
