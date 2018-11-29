@@ -84,7 +84,7 @@ nav a:hover {
       transition: all ease-in-out 250ms;
   }
 }
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 1020px) {
 
   .nav-toggle{
     position: absolute;
@@ -183,7 +183,7 @@ nav a:hover {
     transition: all ease-in-out 250ms;
   }
   header.isopen{
-    height: auto;
+    height: 300px;
     transition: all ease-in-out 250ms;
   }
   .navItem1, .navItem1::before, .navItem1::after, .navItem:hover, .navItem1:hover::after, .navItem:hover::before{
