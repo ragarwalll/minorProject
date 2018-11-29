@@ -20,10 +20,12 @@ if(isset($_POST['confirm']))
   }
   header("Location: index.php");
 }
- ?>
- <h1>Logout of your account?</h1>
+ ?><br><br><br>
+<div class="profile--wrapper">
+<h1 style="margin:0px">Logout of your account?</h1><hr><br>
  <p>Are you sure you'd like to logout?</p>
 <form action="logout.php" method="post">
   <input type="checkbox" name="alldevices" value="alldevices">Logout of all devices?<br />
-  <input type="submit" name="confirm" value="Confirm">
+  <input type="submit" name="confirm" value="Confirm" class="contact__final">
 </form>
+</div>

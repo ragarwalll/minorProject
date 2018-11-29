@@ -11,29 +11,14 @@ if(!$userid){
   <div class="bar"></div>
 </div>  
 
-<section class="hero">
-    <div class="grid-header contain-header">
-        <div class="hero-text col col--1">
-          <h1 class="title-large"><span>Getting started with
-          </span>Digital Literacy Programme</h1>
-            <p class="text-intro">El Arte is a Spanish word which when
-            translated into English means The Art. El Arte is a
-            place where you will find a collection of drawings
-            and paintings.</p><br>
-            <a href="" class="btn new-btn btn--secondary">Learn More</a>
-            <a href="" class="btn new-btn btn--primary">All Drawing</a>
-            <div class="downit">
-                <i class="fas fa-angle-double-down fa-2x" style="color:white;"></i>
-            </div>
-        </div>
-    </div>
-</section><br><br>
+<br><br>
 
 <div class="profile--wrapper">
     <?php
     include ( "./post_actions.php");
     //posting
-    include ("./inc/create-post.inc.php");
+    echo '<div style="text-align:center">';
+    include ("./inc/create-post.inc.php");echo '</div>';
     //like
     if(isset($_GET['like'])){
         post::likePost($_GET['like'], $userid);

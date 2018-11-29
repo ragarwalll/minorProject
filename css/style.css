@@ -911,6 +911,7 @@ a {
   word-wrap: break-word;
   border-radius: 15px 50px 30px 5px;
   border: 10px solid #ffffff;
+  margin: 0.6em;
 }
 
 .message_right1 {
@@ -929,6 +930,7 @@ a {
   width: 59%;
   text-align: right;
   word-break: break-all;
+  margin: 0.6em 0 0.6em 0;
 }
 
 .message_right2 span {
@@ -950,6 +952,41 @@ a {
 
 hrr {
   margin: 8px;
+}
+
+.unread p, .read p {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.from_name p {
+  margin: 5px 0px 2px 70px;
+  font-size: 18px;
+  font-weight: normal;
+  background-color: #e3e3e3;
+  border: 1px solid #F3F6F9;
+  border-radius: 20px;
+  padding: 5px 0px 5px 10px;
+}
+
+.from_name {
+  background-color: #ffffff;
+  border: 1px solid #F3F6F9;
+  padding: 0 0.6em 25px 0.6em;
+  transition: all ease-in-out 250ms;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 20px;
+}
+
+.from_name:hover {
+  background-color: #eeeeee;
+}
+
+.actual {
+  all: unset;
+  cursor: pointer;
+  color: #444444;
 }
 
 .user-dp {

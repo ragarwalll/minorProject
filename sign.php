@@ -13,19 +13,25 @@ include ( "./inc/register.inc.php" );
           <div class="email">
             <form action="" method="POST">
                 <input type="text" name="first_name" autocomplete="off" placeholder="Enter your first name" class="user fname" />
+                <div class="line user1"></div>
                 <input type="text" name="last_name" autocomplete="off" placeholder="Enter your last name" class="user lname" />
-                <input type="email" name="email" autocomplete="off" onkeyup="checkitemail();" placeholder="Enter your email" class="user usercheckemail" />
+                <div class="line user2"></div>
+                <input type="email" name="email" autocomplete="off" onkeyup="checkitemail();" placeholder="Enter your email" class="user usercheckemail mail" />
+                <div class="line user3"></div>
                 <div id="email_check"></div>
-                <input type="text" name="username" autocomplete="off" onkeyup="checkit();" placeholder="Enter your username" class="user usercheck" id="set"  />
+                <input type="text" name="username" autocomplete="off" onkeyup="checkit();" placeholder="Enter your username" class="user usercheck name" id="set"  />
+                <div class="line user4"></div>
                 <div id="user_check"></div>
                 <input type="password" name="password" class="pass pass1" placeholder="Enter your password" />
+                <div class="line user5"></div>
                 <span id="email_status" class="email_status"></span>
               <div class="sign"><input type="submit" name="signup" class="final" style="position: absolute;float: right;bottom: 35px;right: 41px;" value="Sign Up"></div>
             </form>
           </div><!--Email-->
-        </div><!--Input-->
+        </div><!--Input--> 
     </div><!--Form-->
     <script type="text/javascript" src="./js/ajax_newaccount.js"></script>
+    <script type="text/javascript" src="./js/hover-sign.js"></script>
     <script>
         $('.sign').hide();
         function check_details(){
