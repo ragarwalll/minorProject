@@ -24,13 +24,14 @@ foreach($getposts as $row){
         $lastname_post=$get_name['last_name'];
         $userdata_post=$get_name['userdata'];
         //echo $lastname_post;    
+        $username_post=$get_name['username'];
     }
     
     ?>
     <div class="profile-newfeed">
         <div class="profile--posted-by">
             <img src="<?php print $_SERVER['MYVAR'];?>assets/userdata/<?php echo $userdata_post;?>/dp.jpg" height="40" style="border-radius: 50%" alt="">
-            <a href="<?php print $_SERVER['MYVAR'];?>profile/user/<?php echo $username_post;?>" target="_blank"><?php echo $firstname_post." ".$lastname_post;?></a>
+            <a href="<?php print $_SERVER['MYVAR'];?>profile.php?user=<?php echo $username_post;?>" target="_blank"><?php echo $firstname_post." ".$lastname_post;?></a>
             <span><?php echo $date_added;?></span>
         </div>
         
@@ -49,11 +50,11 @@ foreach($getposts as $row){
         <?php }?>
         <div class="post--likes" style="display:inline; padding-right:0px;  ">
             <?php
-            $ttl_likes=DB::query('SELECT total_likes FROM total_likes WHERE post_id=:id', array(':id'=>$id))[0]['total_likes'];
-            echo $ttl_likes;
+            $likesall=DB::query('SELECT total_likes FROM total_likes WHERE post_id=:postid', array(':postid'=>$id))[0]['total_likes'];
+            echo $likesall;
             ?>
         </div> 
-        <div style="display:inline; padding-left:0px;  " class="post--likes">people likes this</div>
+        <div style="display:inline; padding-left:0px;" class="post--likes">people likes this</div>
         <hr>
         <div class="post--action">
             <div class="post--like">
@@ -97,7 +98,7 @@ foreach($getposts as $row){
             <div class="comment-all">
                 <div class="comment-all-body">
                     <img src="<?php print $_SERVER['MYVAR'];?>assets/userdata/<?php echo $userdata_comment;?>/dp.jpg" height="25" style="border-radius: 50%;transform: translateY(5px);" alt="">
-                    <a href="<?php print $_SERVER['MYVAR'];?>profile/user/<?php echo $username_comment;?>" target="_blank"><?php echo $firstname_comment." ".$lastname_comment;?></a>
+                    <a href="<?php print $_SERVER['MYVAR'];?>profile.php?user=<?php echo $username_comment;?>" target="_blank"><?php echo $firstname_comment." ".$lastname_comment;?></a>
                     <span><?php echo $comments_body['post_body'] ?></span>
                 </div>
             </div><br>

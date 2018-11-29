@@ -53,7 +53,7 @@ $user=Login::isLoggedIn();
                     <li><a href="index.php" class="navItem navItem1">DASHBOARD</a></li>
                     <li><a href="contact.php" class="navItem">CONTACT</a></li>
                     <li><a href="contributors.php" class="navItem">CONTRIBUTORS</a></li>
-                    <li><div onclick="login.php" class="navItem divnew">Log In/Sign Up</div></li>
+                    <li><div class="navItem divnew">Log In/Sign Up</div></li>
                     </ul>
                 </nav>
                 <div class="nav-toggle">

@@ -1,7 +1,7 @@
 <?php
 include ( "./inc/header.inc.php");
 if($userid){
-  Header("Location:home");
+  Header("Location:home.php");
 }
 include ( "./inc/login.inc.php");?>
  <script>

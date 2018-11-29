@@ -26,6 +26,7 @@ foreach($getposts as $row){
         $firstname_post=$get_name['first_name'];
         $lastname_post=$get_name['last_name'];
         $userdata_post=$get_name['userdata'];
+        $username_post=$get_name['username'];
         //echo $lastname_post;    
     }
     
@@ -33,7 +34,7 @@ foreach($getposts as $row){
     <div class="profile-newfeed">
         <div class="profile--posted-by">
             <img src="<?php print $_SERVER['MYVAR'];?>assets/userdata/<?php echo $userdata_post;?>/dp.jpg" height="40" style="border-radius: 50%" alt="">
-            <a href="<?php print $_SERVER['MYVAR'];?>profile/user/<?php echo $username_post;?>" target="_blank"><?php echo $firstname_post." ".$lastname_post;?></a>
+            <a href="<?php print $_SERVER['MYVAR'];?>profile.php?user=<?php echo $username_post;?>" target="_blank"><?php echo $firstname_post." ".$lastname_post;?></a>
             <span><?php echo $date_added;?></span>
         </div>
         
@@ -100,7 +101,7 @@ foreach($getposts as $row){
             <div class="comment-all">
                 <div class="comment-all-body">
                     <img src="<?php print $_SERVER['MYVAR'];?>assets/userdata/<?php echo $userdata_comment;?>/dp.jpg" height="25" style="border-radius: 50%;transform: translateY(5px);" alt="">
-                    <a href="<?php print $_SERVER['MYVAR'];?>profile/user/<?php echo $username_comment;?>" target="_blank"><?php echo $firstname_comment." ".$lastname_comment;?></a>
+                    <a href="<?php print $_SERVER['MYVAR'];?>profile.php?user=<?php echo $username_comment;?>" target="_blank"><?php echo $firstname_comment." ".$lastname_comment;?></a>
                     <span><?php echo $comments_body['post_body'] ?></span>
                 </div>
             </div><br>

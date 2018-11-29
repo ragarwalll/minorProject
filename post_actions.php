@@ -25,7 +25,8 @@ class post{
     }
 
     public static function postImage($post_id,$userid){
-        $userdata=DB::query('SELECT userdata FROM users WHERE id=:id',array(':id'=>$userid))[0]['userdata'];
+        $addedby=DB::query('SELECT added_by FROM posts WHERE id=:postid', array(':postid'=>$post_id))[0]['added_by'];
+        $userdata=DB::query('SELECT userdata FROM users WHERE id=:id',array(':id'=>$addedby))[0]['userdata'];
         if(DB::query('SELECT post_image FROM posts WHERE id=:id',array(':id'=>$post_id))[0]['post_image']){
             $pic=DB::query('SELECT post_image FROM posts WHERE id=:id',array(':id'=>$post_id))[0]['post_image'];
             $final="assets/userdata/".$userdata."/post/".$pic;
