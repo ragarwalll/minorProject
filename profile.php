@@ -26,7 +26,7 @@ if (isset($_GET['user']))
     }?>
 <div class="profile--wrapper">
 
-    <div class="profile-tab">
+    <div class="profile-tab"> 
         <div class="user-dp">
             <img src="<?php print $_SERVER['MYVAR'];?>assets/userdata/<?php echo $userdata_post;?>/dp.jpg" width="200" style="border-radius: 50%" alt=""><br><br>
             <h3><?php echo $firstname_post." ".$lastname_post;?></h3>

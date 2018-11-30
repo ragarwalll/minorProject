@@ -44,6 +44,9 @@ include ( "./inc/register.inc.php" );
             if(email==success && username=="OK    " && fname && lname && pass){
                 $('.sign').fadeIn();
             }  
+            else{
+                $('.sign').fadeOut();
+            }
         }
         setInterval(function() 
         {

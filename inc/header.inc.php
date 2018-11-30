@@ -21,6 +21,7 @@ else {
     <link rel="stylesheet" href="./css/login.css">
     <link rel="stylesheet" href="./css/dashboard.css">
     <link rel="stylesheet" href="./css/style.css">
+    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Digital Literacy Programme</title>
 </head>
@@ -42,6 +43,7 @@ else {
                     <li><a href="profile.php?user=<?php echo $username;?>" class="navItem">PROFILE</a></li>
                     <li><a href="messages.php" class="navItem">MESSAGES</a></li>
                     <li><a href="friends.php" class="navItem">FIND PEOPLE</a></li>
+                    <li><a href="message_contributors.php" class="navItem">CONTRIBUTORS</a></li>
                     <li><a href="settings.php" class="navItem">ACCOUNT SETTINGS</a></li>
                     <li><a href="logout.php" class="navItem">LOGOUT</a></li>
                     <?php }?>
