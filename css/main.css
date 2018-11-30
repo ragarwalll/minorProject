@@ -184,7 +184,7 @@ nav a:hover {
     transition: all ease-in-out 250ms;
   }
   header.isopen{
-    height: 300px;
+    height: 350px;
     transition: all ease-in-out 250ms;
   }
   .navItem1, .navItem1::before, .navItem1::after, .navItem:hover, .navItem1:hover::after, .navItem:hover::before{
