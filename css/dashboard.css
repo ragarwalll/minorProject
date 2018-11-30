@@ -34,6 +34,10 @@
 .levels{
     text-align: center;
 }
+@media screen and (max-width: 460px) {
+.level{
+    max-width: 65vw;
+}
 .begin--svg{
     position: absolute;
     top: 1.25rem;

@@ -23,6 +23,7 @@ header::after {
   color: #444;
   cursor: pointer;
 }
+
 .logo {
   float: left;
   padding: 2px 0;
@@ -197,6 +198,9 @@ nav a:hover {
     float: none !important;
     width: 100% !important;
     animation: reveal 1s ease-in-out;
+  }
+  .divnew:hover{
+    transform: scale(1.1);
   }
 
   @keyframes reveal {

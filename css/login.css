@@ -48,13 +48,21 @@ body{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
+
+@media screen and (max-width: 673px) {
+.main-form{
+    box-shadow: none;
+    width: 80vw;
+}
+
+}
 .details{
     outline: none;
     border: none;
     display: block;
     margin: 0 auto;
     font-size: 18px;
-    width: 100%;
+    width: 70vw;
     border-bottom: 1px solid #c0c0c0c0;
     padding-top: 30px;
 }

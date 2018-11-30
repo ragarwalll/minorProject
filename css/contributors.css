@@ -6,7 +6,7 @@
 .person{
     font-family: 'Open Sans', Arial, sans-serif;
     position: relative;
-    min-width: 230px;
+    min-width: 250px;
     max-width: 320px;
     min-height: 75px;
     width: 100%;
@@ -57,4 +57,21 @@
 .picture:hover{
     transform: scale(1.2);
     transition: all 150ms ease-in-out;
+}
+@media screen and (max-width: 925px) {
+    .person{
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .container--con{
+        padding: 20px !important;
+    }
+}
+@media screen and (max-width: 430px) {
+    .person{
+        width: 80vw;
+    }
+    .container--con{
+        padding: 20px !important;
+    }
 }
