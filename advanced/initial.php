@@ -54,7 +54,7 @@
             <a href="../"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
         </div>
         <div class="main-wrapper">
-            <p id="starting--header">In this level, we wil help you give an idea about how to browse the internet.</p>
+            <p id="starting--header">Here you'll learn using Google Chrome, a browser used to surf internet</p>
 
             <div class="contents">
                 <ul>

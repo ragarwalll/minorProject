@@ -54,7 +54,7 @@
             <a href="../"><i class="fas fa-arrow-alt-circle-left fa-2x"></i></i></a>
         </div>
         <div class="main-wrapper">
-            <p id="starting--header">In this level, we wil help you give a basic idea about how to work with word.</p>
+            <p id="starting--header">In this course, we will give you a brief overview of MS WORD 2007.</p>
 
             <div class="contents">
                 <ul>
