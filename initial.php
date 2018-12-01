@@ -77,8 +77,8 @@ if(isset($_POST['submit_form'])){
             <div style="padding-bottom:30px;"></div>
             <div class="space">
                 <select name="occupation" class="details occupation">
-                    <option value="business">Business</option>
-                    <option value="others">Others</option>
+                    <option value="student">Student</option>
+                    <option value="parent">Parent</option>
                 </select>
             </div>
             <input type="submit" name="submit_form" class="submit-form">
